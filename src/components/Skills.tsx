@@ -3,40 +3,40 @@ import { Code, Gamepad2, Palette, Zap, Monitor, Cpu } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
-    {
-      icon: Gamepad2,
-      title: 'Game Engines',
-      skills: ['Unity 3D', 'Unreal Engine', 'Godot', 'GameMaker Studio'],
-      color: 'purple'
-    },
+    // {
+    //   icon: Gamepad2,
+    //   title: 'Game Engines',
+    //   skills: ['Unity 3D', 'Unreal Engine', 'Godot', 'GameMaker Studio'],
+    //   color: 'purple'
+    // },
     {
       icon: Code,
       title: 'Programming',
-      skills: ['C#', 'C++', 'JavaScript', 'Python', 'HLSL/GLSL'],
+      skills: ['C#', 'HTML', 'CSS', 'Scilab', 'Java'],
       color: 'blue'
     },
-    {
-      icon: Monitor,
-      title: 'Web Technologies',
-      skills: ['WebGL', 'Three.js', 'React', 'TypeScript', 'HTML5 Canvas'],
-      color: 'green'
-    },
-    {
-      icon: Palette,
-      title: 'Art & Design',
-      skills: ['Blender', 'Maya', 'Photoshop', 'Substance Painter', 'UI/UX Design'],
-      color: 'pink'
-    },
+    // {
+    //   icon: Monitor,
+    //   title: 'Web Technologies',
+    //   skills: ['WebGL', 'Three.js', 'React', 'TypeScript', 'HTML5 Canvas'],
+    //   color: 'green'
+    // },
+    // {
+    //   icon: Palette,
+    //   title: 'Art & Design',
+    //   skills: ['Blender', 'Maya', 'Photoshop', 'Substance Painter', 'UI/UX Design'],
+    //   color: 'pink'
+    // },
     {
       icon: Zap,
       title: 'Specializations',
-      skills: ['Game Physics', 'AI/ML', 'Procedural Generation', 'Optimization'],
+      skills: ['Game Physics', 'AI Agents', 'Scalable Code', 'Optimization','Shader Graph'],
       color: 'yellow'
     },
     {
       icon: Cpu,
       title: 'Platforms',
-      skills: ['PC/Console', 'Mobile', 'WebGL', 'VR/AR', 'Cross-platform'],
+      skills: ['PC/Console', 'Mobile', 'WebGL', 'Cross-platform'],
       color: 'indigo'
     }
   ];
